@@ -2,6 +2,8 @@
 
 **Skill2Team(S2T)** is provided as [skill2team-1.9.2.zip](skill2team-1.9.2.zip). It is designed for the point where a skill has become too complex to maintain as one large instruction set, especially when design work, audit work, review gates, execution flow, and deployment assumptions are mixed together. Skill2Team converts that kind of complex skill into a multi-agent team design, so each agent has a clearer responsibility, boundary, handoff, and quality gate. Its output is organized in two steps: first, it generates a runtime-neutral `design` that can be used for further runtime-specific design and deployment; second, using OpenAI Codex as the example runtime, it can further generate a `package` that contains the target team information, agent profiles, manifests, usage guidance, conformance checks, and registration/start/use prompts. This project will continue to add features and improve over time.
 
+Beyond Skill2Team, the same direction can be extended into many related tools by generalizing research on human social, economic, and management structures to silicon-based societies. For example, `team2team` can reorganize silicon-based teams, while `team2skill` can compress a team into a skill that runs directly in a chat page to reduce cost. This can also be understood as distilling and solidifying the core workflow of a silicon-based team, making the team simpler and lighter.
+
 **Skill2Team Architecture Diagram (English)**
 
 ![Skill2Team Architecture Diagram English](skill2team-architecture-diagram-en.png)
@@ -137,6 +139,8 @@ This project is released under the **MIT No Attribution License (MIT-0)**. See `
 # S2T: Still2Team 中文说明
 
 **Skill2Team(S2T)** 以 [skill2team-1.9.2.zip](skill2team-1.9.2.zip) 提供。它面向一种常见问题：skill 越来越复杂，设计、审计、质量审核、运行流程和部署假设混在同一套长指令里，导致维护、迁移和复用都变困难。Skill2Team 的目标是把这种复杂 skill 转换成由 multi-agent 构成的 team，让每个 agent 的职责、边界、交接关系和质量门更加清楚。它的产出分为两步：第一步生成与具体运行环境相对解耦的 `design`，之后可以基于这个 design 按目标运行环境继续设计和部署；第二步以 OpenAI Codex 运行环境为例，在 design 基础上进一步生成包含 team 信息的 `package`，包括 agent profiles、manifests、使用说明、一致性检查，以及注册/启动/使用提示词。这个项目会不断补充功能，持续改进。
+
+除了 Skill2Team，类似方向还可以继续扩展出很多工具：把人类社会经济形态和管理方面的研究推广到硅基社会。例如，`team2team` 可以用于硅基团队重组；`team2skill` 可以把 team 压缩成能在聊天页面直接运行的 skill，从而降低成本。这个过程也可以理解为对硅基团队核心流程的蒸馏和固化，让硅基团队变得更精简。
 
 **Skill2Team Architecture Diagram (Chinese)**
 
